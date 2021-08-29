@@ -1,0 +1,60 @@
+body 
+{
+    background-color: rgba(255, 238, 140, 0.877);
+}
+h1 {
+    text-align: center;
+    color: red;
+}
+h2 {
+    text-align: center;
+    color: red;
+}
+.first {
+    text-transform: uppercase;
+}
+.stories {
+    font-style: italic;
+}
+.sectext {
+    font-style: italic;
+}
+.thrtext {
+    font-style: italic;
+}
+.frthtext {
+    font-style: italic;
+}
+.fifthtext {
+    font-style: italic;
+}
+.sxtext {
+    font-style: italic;
+}
+.textseven {
+    font-style: italic;
+}
+.eighttext {
+    font-style: italic;
+}
+.nintext {
+    font-style: italic;
+}
+.tentext {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
+.elvtext {
+    font-style: italic;
+}
+.tvlvtext {
+    font-style: italic;
+}
+.bigarticle {
+    font-style: italic;
+}
+.smlarticle {
+    font-style: italic;
+}

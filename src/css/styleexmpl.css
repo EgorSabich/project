@@ -1,0 +1,15 @@
+div {
+    color: blue;
+}
+.element {
+    color: red;
+}
+.wrapper .element {
+    color: orange;
+}/* внутри класса wrapper есть класс element */
+.big {
+    color: black;
+}
+#second.element {
+    color: green;
+}/* относится к одному элементу */

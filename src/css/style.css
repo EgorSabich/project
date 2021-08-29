@@ -1,0 +1,79 @@
+
+* {
+    box-sizing: border-box;
+}   
+body {
+    background-color: rgb(252, 232, 245);/* цвет фона */
+}
+h1, h2, h3 {
+    text-align: center;
+}
+h2 {
+    color: rgba(59, 47, 235, 0.925);
+    font-size: 50px;/* размер шрифта  */
+    font-style: italic;/* шрифт текста */
+    /* text-align: center;/* ставит все элементы по центру */ */
+    font-weight: normal;/* жирность текста */
+    /* text-decoration: underline; *//* подчеркивание текста */
+    /* text-decoration: line-through; *//* зачеркивание текста */
+} 
+
+.text {
+    font-weight: 800;
+    text-transform: uppercase;/* верхний регистр  */
+}
+
+.list {
+text-align: center;
+}
+.chapter {
+    color: #4B0082;
+}/* селектор по классу элемента, желательно называть так, чтобы в последующем легко ориентироваться в этих классах */
+
+#begin {
+    color: rgba(255,20,147, 0.5);
+    font-weight: bold;
+}/* прописывание селектора по индвидуальному идентификатору */
+.box {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    padding: 20px/* вертикальные отпуступы */ /* идут по часовой стрелке, начиная сверху*/50px;/* горизонтальные отступы */
+   /*  border-width: 3px;
+    border-style: solid;
+    background-color: #black;/* граница для нашего блока */ 
+    border: 3px dashed black; /* комбинирование задавание границы */
+    margin: 20px;/* задание внешних оступов */
+    z-index: 3; /*расположение эелемента по оси z, чем он выше, тем больше вероятность что элемент будет ближе к пользователю */
+    vertical-align: middle;/* для приэимания элемента к топу, центру и тд */
+} 
+.pink {
+    color: pink;
+}
+a {
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    float: right;/* обтекание картинки элементом слева */
+}
+nav {
+    position: inherit;/* свободное позиционирование определенной группы элементов */ /* static, relative, absolute, fixed, inherit */
+}
+.red {
+    font-size: 30px;
+    width: 50rem;
+    background-color: red;  
+}
+.example {
+    position: relative; /* bottom, top, right, left */
+} 
+
+/* Блочные элементы */
+/* Строчные элементы */
+/* Строчно-блочные элементы */
